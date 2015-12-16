@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <attr name="imageType" format="enum">
+       <enum name="Normal" value="0"/>
+       <enum name="Circle" value="1"/>
+       <enum name="Oval" value="2"/>
+       <enum name="RoundRecF" value="3"/>
+   </attr>
+
+    <declare-styleable name="AutoImageView" >
+        <attr name="imageType"/>
+
+    </declare-styleable>
+</resources>
